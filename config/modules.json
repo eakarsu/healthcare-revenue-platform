@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ai-ambulance-payer-denial-recovery",
+    "name": "Ambulance payer denial recovery",
+    "sourceProject": "ai-ambulance-payer-denial-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-behavioral-health-parity-claims-audit",
+    "name": "Behavioral health parity claims audit",
+    "sourceProject": "ai-behavioral-health-parity-claims-audit",
+    "services": []
+  },
+  {
+    "id": "ai-clinical-appeals-external-review",
+    "name": "Clinical appeals external review",
+    "sourceProject": "ai-clinical-appeals-external-review",
+    "services": []
+  },
+  {
+    "id": "ai-clinical-documentation-integrity-coding-query",
+    "name": "Clinical documentation integrity coding query",
+    "sourceProject": "ai-clinical-documentation-integrity-coding-query",
+    "services": []
+  },
+  {
+    "id": "ai-dental-ppo-underpayment-recovery",
+    "name": "Dental ppo underpayment recovery",
+    "sourceProject": "ai-dental-ppo-underpayment-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-dialysis-esrd-bundle-reimbursement-recovery",
+    "name": "Dialysis esrd bundle reimbursement recovery",
+    "sourceProject": "ai-dialysis-esrd-bundle-reimbursement-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-dme-rental-reimbursement-recovery",
+    "name": "Dme rental reimbursement recovery",
+    "sourceProject": "ai-dme-rental-reimbursement-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-employer-stop-loss-claims-recovery",
+    "name": "Employer stop loss claims recovery",
+    "sourceProject": "ai-employer-stop-loss-claims-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-fqhc-wrap-payment-reconciliation",
+    "name": "Fqhc wrap payment reconciliation",
+    "sourceProject": "ai-fqhc-wrap-payment-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-health-plan-vendor-guarantee-claims-audit",
+    "name": "Health plan vendor guarantee claims audit",
+    "sourceProject": "ai-health-plan-vendor-guarantee-claims-audit",
+    "services": []
+  },
+  {
+    "id": "ai-healthcare-coordination-benefits-recovery",
+    "name": "Healthcare coordination benefits recovery",
+    "sourceProject": "ai-healthcare-coordination-benefits-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-healthcare-payer-contract-underpayment-recovery",
+    "name": "Healthcare payer contract underpayment recovery",
+    "sourceProject": "ai-healthcare-payer-contract-underpayment-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-home-health-evv-claims-recovery",
+    "name": "Home health evv claims recovery",
+    "sourceProject": "ai-home-health-evv-claims-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-home-infusion-authorization-reimbursement",
+    "name": "Home infusion authorization reimbursement",
+    "sourceProject": "ai-home-infusion-authorization-reimbursement",
+    "services": []
+  },
+  {
+    "id": "ai-hospice-cap-liability-reimbursement",
+    "name": "Hospice cap liability reimbursement",
+    "sourceProject": "ai-hospice-cap-liability-reimbursement",
+    "services": []
+  },
+  {
+    "id": "ai-hospital-implant-charge-capture-recovery",
+    "name": "Hospital implant charge capture recovery",
+    "sourceProject": "ai-hospital-implant-charge-capture-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-hospital-observation-status-revenue-integrity",
+    "name": "Hospital observation status revenue integrity",
+    "sourceProject": "ai-hospital-observation-status-revenue-integrity",
+    "services": []
+  },
+  {
+    "id": "ai-hospital-price-transparency-compliance",
+    "name": "Hospital price transparency compliance",
+    "sourceProject": "ai-hospital-price-transparency-compliance",
+    "services": []
+  },
+  {
+    "id": "ai-hospital-provider-based-department-billing-integrity",
+    "name": "Hospital provider based department billing integrity",
+    "sourceProject": "ai-hospital-provider-based-department-billing-integrity",
+    "services": []
+  },
+  {
+    "id": "ai-hospital-transfer-drg-reimbursement-recovery",
+    "name": "Hospital transfer drg reimbursement recovery",
+    "sourceProject": "ai-hospital-transfer-drg-reimbursement-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-laboratory-test-reimbursement-recovery",
+    "name": "Laboratory test reimbursement recovery",
+    "sourceProject": "ai-laboratory-test-reimbursement-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-medicaid-duplicate-coverage-payment-recovery",
+    "name": "Medicaid duplicate coverage payment recovery",
+    "sourceProject": "ai-medicaid-duplicate-coverage-payment-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-medicaid-supplemental-payment-reconciliation",
+    "name": "Medicaid supplemental payment reconciliation",
+    "sourceProject": "ai-medicaid-supplemental-payment-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-medical-device-chargeback-rebate-reconciliation",
+    "name": "Medical device chargeback rebate reconciliation",
+    "sourceProject": "ai-medical-device-chargeback-rebate-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-medicare-advantage-quality-bonus-revenue-reconciliation",
+    "name": "Medicare advantage quality bonus revenue reconciliation",
+    "sourceProject": "ai-medicare-advantage-quality-bonus-revenue-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-medicare-cost-report-reimbursement-recovery",
+    "name": "Medicare cost report reimbursement recovery",
+    "sourceProject": "ai-medicare-cost-report-reimbursement-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-medicare-radv-hcc-evidence-validator",
+    "name": "Medicare radv hcc evidence validator",
+    "sourceProject": "ai-medicare-radv-hcc-evidence-validator",
+    "services": []
+  },
+  {
+    "id": "ai-medicare-secondary-payer-lien-resolution",
+    "name": "Medicare secondary payer lien resolution",
+    "sourceProject": "ai-medicare-secondary-payer-lien-resolution",
+    "services": []
+  },
+  {
+    "id": "ai-nicu-case-rate-outlier-reconciliation",
+    "name": "Nicu case rate outlier reconciliation",
+    "sourceProject": "ai-nicu-case-rate-outlier-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-no-surprises-idr-operations",
+    "name": "No surprises idr operations",
+    "sourceProject": "ai-no-surprises-idr-operations",
+    "services": []
+  },
+  {
+    "id": "ai-organ-transplant-case-rate-reconciliation",
+    "name": "Organ transplant case rate reconciliation",
+    "sourceProject": "ai-organ-transplant-case-rate-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-physician-capitation-settlement-reconciliation",
+    "name": "Physician capitation settlement reconciliation",
+    "sourceProject": "ai-physician-capitation-settlement-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-prior-authorization-operations-hub",
+    "name": "Prior authorization operations hub",
+    "sourceProject": "ai-prior-authorization-operations-hub",
+    "services": []
+  },
+  {
+    "id": "ai-provider-enrollment-revalidation-revenue-protection",
+    "name": "Provider enrollment revalidation revenue protection",
+    "sourceProject": "ai-provider-enrollment-revalidation-revenue-protection",
+    "services": []
+  },
+  {
+    "id": "ai-provider-network-directory-accuracy",
+    "name": "Provider network directory accuracy",
+    "sourceProject": "ai-provider-network-directory-accuracy",
+    "services": []
+  },
+  {
+    "id": "ai-rural-health-clinic-cost-report-recovery",
+    "name": "Rural health clinic cost report recovery",
+    "sourceProject": "ai-rural-health-clinic-cost-report-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-skilled-nursing-pdpm-reimbursement-integrity",
+    "name": "Skilled nursing pdpm reimbursement integrity",
+    "sourceProject": "ai-skilled-nursing-pdpm-reimbursement-integrity",
+    "services": []
+  },
+  {
+    "id": "ai-value-based-care-shared-savings-reconciliation",
+    "name": "Value based care shared savings reconciliation",
+    "sourceProject": "ai-value-based-care-shared-savings-reconciliation",
+    "services": []
+  },
+  {
+    "id": "AIHealthcareBillingOptimizer",
+    "name": "Healthcare billing optimizer",
+    "sourceProject": "AIHealthcareBillingOptimizer",
+    "services": []
+  },
+  {
+    "id": "payment-integrity-provider-audit-suite",
+    "name": "Payment integrity provider audit suite",
+    "sourceProject": "payment-integrity-provider-audit-suite",
+    "services": []
+  }
+]

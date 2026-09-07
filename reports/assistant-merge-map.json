@@ -1,0 +1,2817 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "file-validate",
+      "rate-compare",
+      "attestation-draft",
+      "hcc-validate",
+      "evidence-gap-scan",
+      "release-letter-evidence",
+      "appeal-drafts",
+      "record-match",
+      "adequacy-review"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 12 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "file-validate",
+        "title": "Draft: MRF Validator",
+        "originalPath": "/features/file-validate"
+      },
+      {
+        "id": "rate-compare",
+        "title": "Draft: Rate Benchmark Analyst",
+        "originalPath": "/features/rate-compare"
+      },
+      {
+        "id": "attestation-draft",
+        "title": "Draft: Attestation Drafter",
+        "originalPath": "/features/attestation-draft"
+      },
+      {
+        "id": "hcc-validate",
+        "title": "Draft: HCC Evidence Validator",
+        "originalPath": "/features/hcc-validate"
+      },
+      {
+        "id": "evidence-gap-scan",
+        "title": "Draft: Evidence Gap Scanner",
+        "originalPath": "/features/evidence-gap-scan"
+      },
+      {
+        "id": "release-letter-evidence",
+        "title": "Release letter evidence",
+        "originalPath": "/features/release-letter-evidence"
+      },
+      {
+        "id": "appeal-drafts",
+        "title": "Appeal Drafts",
+        "originalPath": "/features/appeal-drafts"
+      },
+      {
+        "id": "record-match",
+        "title": "Draft: Golden Record Matcher",
+        "originalPath": "/features/record-match"
+      },
+      {
+        "id": "adequacy-review",
+        "title": "Draft: Network Adequacy Reviewer",
+        "originalPath": "/features/adequacy-review"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "dispatch-trip-ingestion",
+      "fee-schedule-repricing",
+      "fee-schedule-validation",
+      "scheduled-versus-delivered-visits",
+      "payer-fee-schedule-calculation",
+      "managed-care-enrollment-reconciliation",
+      "enrollment-month-reconciliation",
+      "low-enrollment-plan-treatment",
+      "cost-report-schedule-preparation",
+      "enrollment-evidence-package",
+      "cost-report-schedule-generation"
+    ],
+    "ai": true,
+    "representativeId": "dispatch-trip-ingestion",
+    "description": "One assistant for 11 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "dispatch-trip-ingestion",
+        "title": "Dispatch trip ingestion",
+        "originalPath": "/features/dispatch-trip-ingestion"
+      },
+      {
+        "id": "fee-schedule-repricing",
+        "title": "Fee schedule repricing",
+        "originalPath": "/features/fee-schedule-repricing"
+      },
+      {
+        "id": "fee-schedule-validation",
+        "title": "Fee-schedule validation",
+        "originalPath": "/features/fee-schedule-validation"
+      },
+      {
+        "id": "scheduled-versus-delivered-visits",
+        "title": "Scheduled versus delivered visits",
+        "originalPath": "/features/scheduled-versus-delivered-visits"
+      },
+      {
+        "id": "payer-fee-schedule-calculation",
+        "title": "Payer fee schedule calculation",
+        "originalPath": "/features/payer-fee-schedule-calculation"
+      },
+      {
+        "id": "managed-care-enrollment-reconciliation",
+        "title": "Managed-care enrollment reconciliation",
+        "originalPath": "/features/managed-care-enrollment-reconciliation"
+      },
+      {
+        "id": "enrollment-month-reconciliation",
+        "title": "Enrollment month reconciliation",
+        "originalPath": "/features/enrollment-month-reconciliation"
+      },
+      {
+        "id": "low-enrollment-plan-treatment",
+        "title": "Low-enrollment plan treatment",
+        "originalPath": "/features/low-enrollment-plan-treatment"
+      },
+      {
+        "id": "cost-report-schedule-preparation",
+        "title": "Cost-report schedule preparation",
+        "originalPath": "/features/cost-report-schedule-preparation"
+      },
+      {
+        "id": "enrollment-evidence-package",
+        "title": "Enrollment evidence package",
+        "originalPath": "/features/enrollment-evidence-package"
+      },
+      {
+        "id": "cost-report-schedule-generation",
+        "title": "Cost report schedule generation",
+        "originalPath": "/features/cost-report-schedule-generation"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "patient-payer-eligibility",
+      "medical-necessity-evidence",
+      "physician-certification-control",
+      "signature-evidence",
+      "regulator-evidence-package",
+      "downgrade-validation",
+      "patient-eligibility-registry",
+      "proof-of-delivery-control",
+      "same-or-similar-validation",
+      "stop-loss-policy-library",
+      "run-in-and-run-out-validation",
+      "paid-claim-evidence-package",
+      "laser-and-amendment-control",
+      "qualifying-visit-validation",
+      "duplicate-encounter-control",
+      "member-eligibility",
+      "rebate-guarantee-validation",
+      "vendor-evidence-request",
+      "medicare-eligibility-matching",
+      "member-appeal-evidence",
+      "drg-and-case-rate-validation",
+      "authorization-evidence-control",
+      "timely-filing-deadline-control",
+      "order-and-signature-control",
+      "face-to-face-validation",
+      "oasis-validation",
+      "comorbidity-adjustment-validation",
+      "charge-capture-validation",
+      "admission-order-validation",
+      "observation-order-validation",
+      "two-midnight-evidence",
+      "condition-code-44-control",
+      "department-eligibility-registry",
+      "ownership-licensure-evidence",
+      "campus-distance-validation",
+      "public-awareness-evidence",
+      "patient-notice-control",
+      "place-of-service-validation",
+      "po-modifier-control",
+      "pn-modifier-control",
+      "discharge-status-validation",
+      "geometric-mean-los-validation",
+      "payer-policy-versioning",
+      "appeal-evidence-package",
+      "medical-necessity-validation",
+      "abn-evidence-management",
+      "panel-bundling-validation",
+      "cpt-modifier-control",
+      "eligibility-span-ingestion",
+      "retro-termination-validation",
+      "member-due-process-evidence",
+      "eligibility-control-remediation",
+      "provider-eligibility-registry",
+      "quality-pool-scoring",
+      "eligibility-validation",
+      "cut-point-version-control",
+      "quality-bonus-factor-calculation",
+      "rebate-percentage-validation",
+      "contract-quality-economics",
+      "wage-index-data-validation",
+      "beneficiary-eligibility-verification",
+      "section-111-evidence",
+      "included-service-validation",
+      "excluded-service-validation",
+      "risk-cell-mapping",
+      "carve-out-validation",
+      "quality-pool-allocation",
+      "practice-location-control",
+      "revalidation-deadline-engine",
+      "visit-count-validation",
+      "interrupted-stay-validation",
+      "historical-expenditure-validation",
+      "risk-adjustment-validation",
+      "quality-score-calculation",
+      "risk-corridor-calculation"
+    ],
+    "ai": true,
+    "representativeId": "patient-payer-eligibility",
+    "description": "One assistant for 75 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "patient-payer-eligibility",
+        "title": "Patient payer eligibility",
+        "originalPath": "/features/patient-payer-eligibility"
+      },
+      {
+        "id": "medical-necessity-evidence",
+        "title": "Medical necessity evidence",
+        "originalPath": "/features/medical-necessity-evidence"
+      },
+      {
+        "id": "physician-certification-control",
+        "title": "Physician certification control",
+        "originalPath": "/features/physician-certification-control"
+      },
+      {
+        "id": "signature-evidence",
+        "title": "Signature evidence",
+        "originalPath": "/features/signature-evidence"
+      },
+      {
+        "id": "regulator-evidence-package",
+        "title": "Regulator evidence package",
+        "originalPath": "/features/regulator-evidence-package"
+      },
+      {
+        "id": "downgrade-validation",
+        "title": "Downgrade validation",
+        "originalPath": "/features/downgrade-validation"
+      },
+      {
+        "id": "patient-eligibility-registry",
+        "title": "Patient eligibility registry",
+        "originalPath": "/features/patient-eligibility-registry"
+      },
+      {
+        "id": "proof-of-delivery-control",
+        "title": "Proof-of-delivery control",
+        "originalPath": "/features/proof-of-delivery-control"
+      },
+      {
+        "id": "same-or-similar-validation",
+        "title": "Same-or-similar validation",
+        "originalPath": "/features/same-or-similar-validation"
+      },
+      {
+        "id": "stop-loss-policy-library",
+        "title": "Stop-loss policy library",
+        "originalPath": "/features/stop-loss-policy-library"
+      },
+      {
+        "id": "run-in-and-run-out-validation",
+        "title": "Run-in and run-out validation",
+        "originalPath": "/features/run-in-and-run-out-validation"
+      },
+      {
+        "id": "paid-claim-evidence-package",
+        "title": "Paid-claim evidence package",
+        "originalPath": "/features/paid-claim-evidence-package"
+      },
+      {
+        "id": "laser-and-amendment-control",
+        "title": "Laser and amendment control",
+        "originalPath": "/features/laser-and-amendment-control"
+      },
+      {
+        "id": "qualifying-visit-validation",
+        "title": "Qualifying visit validation",
+        "originalPath": "/features/qualifying-visit-validation"
+      },
+      {
+        "id": "duplicate-encounter-control",
+        "title": "Duplicate encounter control",
+        "originalPath": "/features/duplicate-encounter-control"
+      },
+      {
+        "id": "member-eligibility",
+        "title": "Member eligibility",
+        "originalPath": "/features/member-eligibility"
+      },
+      {
+        "id": "rebate-guarantee-validation",
+        "title": "Rebate guarantee validation",
+        "originalPath": "/features/rebate-guarantee-validation"
+      },
+      {
+        "id": "vendor-evidence-request",
+        "title": "Vendor evidence request",
+        "originalPath": "/features/vendor-evidence-request"
+      },
+      {
+        "id": "medicare-eligibility-matching",
+        "title": "Medicare eligibility matching",
+        "originalPath": "/features/medicare-eligibility-matching"
+      },
+      {
+        "id": "member-appeal-evidence",
+        "title": "Member appeal evidence",
+        "originalPath": "/features/member-appeal-evidence"
+      },
+      {
+        "id": "drg-and-case-rate-validation",
+        "title": "DRG and case-rate validation",
+        "originalPath": "/features/drg-and-case-rate-validation"
+      },
+      {
+        "id": "authorization-evidence-control",
+        "title": "Authorization evidence control",
+        "originalPath": "/features/authorization-evidence-control"
+      },
+      {
+        "id": "timely-filing-deadline-control",
+        "title": "Timely-filing deadline control",
+        "originalPath": "/features/timely-filing-deadline-control"
+      },
+      {
+        "id": "order-and-signature-control",
+        "title": "Order and signature control",
+        "originalPath": "/features/order-and-signature-control"
+      },
+      {
+        "id": "face-to-face-validation",
+        "title": "Face-to-face validation",
+        "originalPath": "/features/face-to-face-validation"
+      },
+      {
+        "id": "oasis-validation",
+        "title": "OASIS validation",
+        "originalPath": "/features/oasis-validation"
+      },
+      {
+        "id": "comorbidity-adjustment-validation",
+        "title": "Comorbidity adjustment validation",
+        "originalPath": "/features/comorbidity-adjustment-validation"
+      },
+      {
+        "id": "charge-capture-validation",
+        "title": "Charge capture validation",
+        "originalPath": "/features/charge-capture-validation"
+      },
+      {
+        "id": "admission-order-validation",
+        "title": "Admission order validation",
+        "originalPath": "/features/admission-order-validation"
+      },
+      {
+        "id": "observation-order-validation",
+        "title": "Observation order validation",
+        "originalPath": "/features/observation-order-validation"
+      },
+      {
+        "id": "two-midnight-evidence",
+        "title": "Two-midnight evidence",
+        "originalPath": "/features/two-midnight-evidence"
+      },
+      {
+        "id": "condition-code-44-control",
+        "title": "Condition code 44 control",
+        "originalPath": "/features/condition-code-44-control"
+      },
+      {
+        "id": "department-eligibility-registry",
+        "title": "Department eligibility registry",
+        "originalPath": "/features/department-eligibility-registry"
+      },
+      {
+        "id": "ownership-licensure-evidence",
+        "title": "Ownership licensure evidence",
+        "originalPath": "/features/ownership-licensure-evidence"
+      },
+      {
+        "id": "campus-distance-validation",
+        "title": "Campus-distance validation",
+        "originalPath": "/features/campus-distance-validation"
+      },
+      {
+        "id": "public-awareness-evidence",
+        "title": "Public awareness evidence",
+        "originalPath": "/features/public-awareness-evidence"
+      },
+      {
+        "id": "patient-notice-control",
+        "title": "Patient notice control",
+        "originalPath": "/features/patient-notice-control"
+      },
+      {
+        "id": "place-of-service-validation",
+        "title": "Place-of-service validation",
+        "originalPath": "/features/place-of-service-validation"
+      },
+      {
+        "id": "po-modifier-control",
+        "title": "PO modifier control",
+        "originalPath": "/features/po-modifier-control"
+      },
+      {
+        "id": "pn-modifier-control",
+        "title": "PN modifier control",
+        "originalPath": "/features/pn-modifier-control"
+      },
+      {
+        "id": "discharge-status-validation",
+        "title": "Discharge status validation",
+        "originalPath": "/features/discharge-status-validation"
+      },
+      {
+        "id": "geometric-mean-los-validation",
+        "title": "Geometric mean LOS validation",
+        "originalPath": "/features/geometric-mean-los-validation"
+      },
+      {
+        "id": "payer-policy-versioning",
+        "title": "Payer policy versioning",
+        "originalPath": "/features/payer-policy-versioning"
+      },
+      {
+        "id": "appeal-evidence-package",
+        "title": "Appeal evidence package",
+        "originalPath": "/features/appeal-evidence-package"
+      },
+      {
+        "id": "medical-necessity-validation",
+        "title": "Medical necessity validation",
+        "originalPath": "/features/medical-necessity-validation"
+      },
+      {
+        "id": "abn-evidence-management",
+        "title": "ABN evidence management",
+        "originalPath": "/features/abn-evidence-management"
+      },
+      {
+        "id": "panel-bundling-validation",
+        "title": "Panel bundling validation",
+        "originalPath": "/features/panel-bundling-validation"
+      },
+      {
+        "id": "cpt-modifier-control",
+        "title": "CPT modifier control",
+        "originalPath": "/features/cpt-modifier-control"
+      },
+      {
+        "id": "eligibility-span-ingestion",
+        "title": "Eligibility span ingestion",
+        "originalPath": "/features/eligibility-span-ingestion"
+      },
+      {
+        "id": "retro-termination-validation",
+        "title": "Retro termination validation",
+        "originalPath": "/features/retro-termination-validation"
+      },
+      {
+        "id": "member-due-process-evidence",
+        "title": "Member due-process evidence",
+        "originalPath": "/features/member-due-process-evidence"
+      },
+      {
+        "id": "eligibility-control-remediation",
+        "title": "Eligibility control remediation",
+        "originalPath": "/features/eligibility-control-remediation"
+      },
+      {
+        "id": "provider-eligibility-registry",
+        "title": "Provider eligibility registry",
+        "originalPath": "/features/provider-eligibility-registry"
+      },
+      {
+        "id": "quality-pool-scoring",
+        "title": "Quality pool scoring",
+        "originalPath": "/features/quality-pool-scoring"
+      },
+      {
+        "id": "eligibility-validation",
+        "title": "Eligibility validation",
+        "originalPath": "/features/eligibility-validation"
+      },
+      {
+        "id": "cut-point-version-control",
+        "title": "Cut-point version control",
+        "originalPath": "/features/cut-point-version-control"
+      },
+      {
+        "id": "quality-bonus-factor-calculation",
+        "title": "Quality bonus factor calculation",
+        "originalPath": "/features/quality-bonus-factor-calculation"
+      },
+      {
+        "id": "rebate-percentage-validation",
+        "title": "Rebate percentage validation",
+        "originalPath": "/features/rebate-percentage-validation"
+      },
+      {
+        "id": "contract-quality-economics",
+        "title": "Contract quality economics",
+        "originalPath": "/features/contract-quality-economics"
+      },
+      {
+        "id": "wage-index-data-validation",
+        "title": "Wage-index data validation",
+        "originalPath": "/features/wage-index-data-validation"
+      },
+      {
+        "id": "beneficiary-eligibility-verification",
+        "title": "Beneficiary eligibility verification",
+        "originalPath": "/features/beneficiary-eligibility-verification"
+      },
+      {
+        "id": "section-111-evidence",
+        "title": "Section 111 evidence",
+        "originalPath": "/features/section-111-evidence"
+      },
+      {
+        "id": "included-service-validation",
+        "title": "Included service validation",
+        "originalPath": "/features/included-service-validation"
+      },
+      {
+        "id": "excluded-service-validation",
+        "title": "Excluded service validation",
+        "originalPath": "/features/excluded-service-validation"
+      },
+      {
+        "id": "risk-cell-mapping",
+        "title": "Risk cell mapping",
+        "originalPath": "/features/risk-cell-mapping"
+      },
+      {
+        "id": "carve-out-validation",
+        "title": "Carve-out validation",
+        "originalPath": "/features/carve-out-validation"
+      },
+      {
+        "id": "quality-pool-allocation",
+        "title": "Quality pool allocation",
+        "originalPath": "/features/quality-pool-allocation"
+      },
+      {
+        "id": "practice-location-control",
+        "title": "Practice location control",
+        "originalPath": "/features/practice-location-control"
+      },
+      {
+        "id": "revalidation-deadline-engine",
+        "title": "Revalidation deadline engine",
+        "originalPath": "/features/revalidation-deadline-engine"
+      },
+      {
+        "id": "visit-count-validation",
+        "title": "Visit count validation",
+        "originalPath": "/features/visit-count-validation"
+      },
+      {
+        "id": "interrupted-stay-validation",
+        "title": "Interrupted-stay validation",
+        "originalPath": "/features/interrupted-stay-validation"
+      },
+      {
+        "id": "historical-expenditure-validation",
+        "title": "Historical expenditure validation",
+        "originalPath": "/features/historical-expenditure-validation"
+      },
+      {
+        "id": "risk-adjustment-validation",
+        "title": "Risk adjustment validation",
+        "originalPath": "/features/risk-adjustment-validation"
+      },
+      {
+        "id": "quality-score-calculation",
+        "title": "Quality score calculation",
+        "originalPath": "/features/quality-score-calculation"
+      },
+      {
+        "id": "risk-corridor-calculation",
+        "title": "Risk corridor calculation",
+        "originalPath": "/features/risk-corridor-calculation"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "origin-destination-modifiers",
+      "loaded-mileage-calculation",
+      "service-level-determination",
+      "repetitive-transport-authorization",
+      "claim-generation",
+      "appeal-package-generation",
+      "secondary-payer-coordination",
+      "base-mileage-payer-analytics",
+      "benefit-limit-comparison",
+      "nqtl-inventory",
+      "prior-authorization-comparison",
+      "concurrent-review-comparison",
+      "medical-necessity-criteria-review",
+      "denial-rate-analytics",
+      "member-impact-calculation",
+      "corrective-action-workflow",
+      "parity-governance-dashboard",
+      "ppo-contract-library",
+      "leased-network-mapping",
+      "provider-location-registry",
+      "cdt-procedure-catalog",
+      "claim-eob-ingestion",
+      "frequency-limitation-review",
+      "cob-calculation",
+      "appeal-generation",
+      "corrected-claim-submission",
+      "payer-procedure-analytics",
+      "treatment-ingestion",
+      "esrd-base-rate-library",
+      "wage-index-adjustment",
+      "low-volume-adjustment",
+      "rural-adjustment",
+      "onset-adjustment",
+      "comorbidity-adjustment",
+      "training-add-on-calculation",
+      "tdapa-treatment",
+      "outlier-service-calculation",
+      "facility-modality-analytics",
+      "equipment-hcpcs-registry",
+      "patient-order-tracking",
+      "coverage-necessity-rules",
+      "prior-authorization",
+      "capped-rental-tracking",
+      "purchase-versus-rental-calculation",
+      "competitive-bidding-adjustment",
+      "oxygen-supply-replenishment",
+      "denial-appeal-workflow",
+      "asset-return-tracking",
+      "product-payer-profitability",
+      "covered-census-registry",
+      "medical-claim-ingestion",
+      "pharmacy-claim-ingestion",
+      "specific-attachment-calculation",
+      "aggregate-attachment-calculation",
+      "aggregating-specific-deductible",
+      "carrier-submission-workflow",
+      "carrier-request-management",
+      "site-rate-registry",
+      "managed-care-contract-mapping",
+      "encounter-ingestion",
+      "same-day-visit-rules",
+      "pps-rate-calculation",
+      "apm-rate-calculation",
+      "wrap-amount-calculation",
+      "state-submission-file",
+      "error-response-remediation",
+      "aging-and-appeal-workflow",
+      "site-plan-analytics",
+      "vendor-agreement-library",
+      "claim-encounter-ingestion",
+      "discount-guarantee-calculation",
+      "service-level-measurement",
+      "implementation-milestones",
+      "clinical-outcome-guarantee",
+      "engagement-guarantee",
+      "data-delivery-sla",
+      "member-coverage-registry",
+      "cob-questionnaire-workflow",
+      "dependent-birthday-rule",
+      "working-aged-rules",
+      "disability-esrd-rules",
+      "claim-payer-order-calculation",
+      "provider-recovery-notice",
+      "recovery-cash-ledger",
+      "cob-root-cause-analytics",
+      "contract-ingestion-and-versioning",
+      "claim-and-835-remittance-ingestion",
+      "stop-loss-and-outlier-calculation",
+      "payer-appeal-package-generation",
+      "payer-response-tracking",
+      "recovery-and-root-cause-analytics",
+      "patient-episode-registry",
+      "plan-of-care-tracking",
+      "evv-event-ingestion",
+      "missing-check-in-remediation",
+      "pdgm-grouping-reconstruction",
+      "lupa-threshold-monitoring",
+      "claim-generation-and-scrub",
+      "episode-profitability-analytics",
+      "election-benefit-registry",
+      "beneficiary-count-calculation",
+      "service-day-ingestion",
+      "transfer-allocation",
+      "live-discharge-treatment",
+      "aggregate-cap-calculation",
+      "proportional-method",
+      "streamlined-method",
+      "inpatient-day-ratio",
+      "sequestration-treatment",
+      "provider-cap-analytics",
+      "implant-and-device-master",
+      "vendor-contract-library",
+      "or-case-ingestion",
+      "implant-log-ingestion",
+      "preference-card-comparison",
+      "corrected-claim-workflow",
+      "procedure-vendor-and-surgeon-analytics",
+      "encounter-timeline-reconstruction",
+      "utilization-review-queue",
+      "hours-and-unit-calculation",
+      "ancillary-charge-capture",
+      "claim-status-coding",
+      "appeal-packet-generation",
+      "professional-facility-claim-linking",
+      "charge-capture-review",
+      "department-economics",
+      "inpatient-claim-ingestion",
+      "post-acute-claim-linkage",
+      "drg-transfer-rule-library",
+      "interrupted-stay-review",
+      "corrected-claim-generation",
+      "facility-drg-analytics",
+      "test-and-panel-catalog",
+      "order-specimen-ingestion",
+      "diagnosis-coverage-rules",
+      "claim-submission",
+      "test-payer-and-provider-analytics",
+      "member-identity-resolution",
+      "provider-notification-workflow",
+      "plan-recovery-demand",
+      "cash-recovery-tracking",
+      "program-integrity-analytics",
+      "program-authority-library",
+      "base-claim-ingestion",
+      "uncompensated-care-calculation",
+      "dsh-limit-calculation",
+      "intergovernmental-transfer",
+      "pool-allocation-calculation",
+      "provider-dispute-workflow",
+      "program-provider-analytics",
+      "distributor-customer-mapping",
+      "device-sku-registry",
+      "volume-rebate-calculation",
+      "dispute-workflow",
+      "device-channel-analytics",
+      "contract-and-segment-registry",
+      "star-measure-ingestion",
+      "double-bonus-county-logic",
+      "new-plan-treatment",
+      "cms-variance-case-workflow",
+      "provider-and-filing-year-registry",
+      "trial-balance-import-and-mapping",
+      "overhead-step-down-allocation",
+      "medicare-utilization-statistics",
+      "medicare-bad-debt-recovery",
+      "dsh-and-uncompensated-care-support",
+      "desk-review-request-management",
+      "reopening-and-appeal-workflow",
+      "chart-review",
+      "liability-event-registry",
+      "claim-relatedness-review",
+      "unrelated-claim-dispute",
+      "demand-amount-calculation",
+      "final-demand-tracking",
+      "appeal-waiver-workflow",
+      "case-outcome-analytics",
+      "payer-contract-library",
+      "neonatal-case-registry",
+      "acuity-level-timeline",
+      "case-rate-episode-logic",
+      "implant-carve-out-calculation",
+      "drug-carve-out-calculation",
+      "transport-carve-out-review",
+      "outlier-threshold-calculation",
+      "stop-loss-calculation",
+      "payer-appeal-workflow",
+      "program-payer-analytics",
+      "payer-transplant-contract-library",
+      "patient-case-registry",
+      "evaluation-phase-tracking",
+      "donor-procurement-expense",
+      "case-rate-episode-definition",
+      "outlier-stop-loss-calculation",
+      "travel-lodging-benefit",
+      "claim-remittance-ingestion",
+      "contract-rate-library",
+      "member-month-ingestion",
+      "age-sex-factor-calculation",
+      "encounter-completeness",
+      "stop-loss-recovery",
+      "withhold-calculation",
+      "variance-dispute-workflow",
+      "group-plan-analytics",
+      "reviewer-assignment",
+      "provider-master-registry",
+      "license-credential-monitoring",
+      "sanction-exclusion-screening",
+      "ownership-disclosure-tracking",
+      "reassignment-management",
+      "payer-application-workflow",
+      "pecos-data-comparison",
+      "roster-submission-tracking",
+      "payer-response-remediation",
+      "provider-payer-analytics",
+      "clinic-status-registry",
+      "trial-balance-ingestion",
+      "provider-fte-calculation",
+      "overhead-allocation",
+      "telehealth-treatment",
+      "air-calculation",
+      "resident-and-stay-registry",
+      "mds-assessment-ingestion",
+      "icd-10-category-mapping",
+      "pt-component-calculation",
+      "ot-component-calculation",
+      "slp-component-calculation",
+      "nursing-component-calculation",
+      "nta-component-calculation",
+      "variable-per-diem-adjustment",
+      "hiv-aids-adjustment",
+      "vbp-adjustment",
+      "program-agreement-library",
+      "claim-completion-factor",
+      "minimum-savings-rate",
+      "shared-savings-calculation",
+      "shared-loss-calculation",
+      "provider-distribution-workflow",
+      "program-performance-analytics"
+    ],
+    "ai": true,
+    "representativeId": "origin-destination-modifiers",
+    "description": "One assistant for 238 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "origin-destination-modifiers",
+        "title": "Origin destination modifiers",
+        "originalPath": "/features/origin-destination-modifiers"
+      },
+      {
+        "id": "loaded-mileage-calculation",
+        "title": "Loaded mileage calculation",
+        "originalPath": "/features/loaded-mileage-calculation"
+      },
+      {
+        "id": "service-level-determination",
+        "title": "Service level determination",
+        "originalPath": "/features/service-level-determination"
+      },
+      {
+        "id": "repetitive-transport-authorization",
+        "title": "Repetitive transport authorization",
+        "originalPath": "/features/repetitive-transport-authorization"
+      },
+      {
+        "id": "claim-generation",
+        "title": "Claim generation",
+        "originalPath": "/features/claim-generation"
+      },
+      {
+        "id": "appeal-package-generation",
+        "title": "Appeal package generation",
+        "originalPath": "/features/appeal-package-generation"
+      },
+      {
+        "id": "secondary-payer-coordination",
+        "title": "Secondary payer coordination",
+        "originalPath": "/features/secondary-payer-coordination"
+      },
+      {
+        "id": "base-mileage-payer-analytics",
+        "title": "Base mileage payer analytics",
+        "originalPath": "/features/base-mileage-payer-analytics"
+      },
+      {
+        "id": "benefit-limit-comparison",
+        "title": "Benefit limit comparison",
+        "originalPath": "/features/benefit-limit-comparison"
+      },
+      {
+        "id": "nqtl-inventory",
+        "title": "NQTL inventory",
+        "originalPath": "/features/nqtl-inventory"
+      },
+      {
+        "id": "prior-authorization-comparison",
+        "title": "Prior authorization comparison",
+        "originalPath": "/features/prior-authorization-comparison"
+      },
+      {
+        "id": "concurrent-review-comparison",
+        "title": "Concurrent review comparison",
+        "originalPath": "/features/concurrent-review-comparison"
+      },
+      {
+        "id": "medical-necessity-criteria-review",
+        "title": "Medical necessity criteria review",
+        "originalPath": "/features/medical-necessity-criteria-review"
+      },
+      {
+        "id": "denial-rate-analytics",
+        "title": "Denial rate analytics",
+        "originalPath": "/features/denial-rate-analytics"
+      },
+      {
+        "id": "member-impact-calculation",
+        "title": "Member impact calculation",
+        "originalPath": "/features/member-impact-calculation"
+      },
+      {
+        "id": "corrective-action-workflow",
+        "title": "Corrective action workflow",
+        "originalPath": "/features/corrective-action-workflow"
+      },
+      {
+        "id": "parity-governance-dashboard",
+        "title": "Parity governance dashboard",
+        "originalPath": "/features/parity-governance-dashboard"
+      },
+      {
+        "id": "ppo-contract-library",
+        "title": "PPO contract library",
+        "originalPath": "/features/ppo-contract-library"
+      },
+      {
+        "id": "leased-network-mapping",
+        "title": "Leased-network mapping",
+        "originalPath": "/features/leased-network-mapping"
+      },
+      {
+        "id": "provider-location-registry",
+        "title": "Provider location registry",
+        "originalPath": "/features/provider-location-registry"
+      },
+      {
+        "id": "cdt-procedure-catalog",
+        "title": "CDT procedure catalog",
+        "originalPath": "/features/cdt-procedure-catalog"
+      },
+      {
+        "id": "claim-eob-ingestion",
+        "title": "Claim EOB ingestion",
+        "originalPath": "/features/claim-eob-ingestion"
+      },
+      {
+        "id": "frequency-limitation-review",
+        "title": "Frequency limitation review",
+        "originalPath": "/features/frequency-limitation-review"
+      },
+      {
+        "id": "cob-calculation",
+        "title": "COB calculation",
+        "originalPath": "/features/cob-calculation"
+      },
+      {
+        "id": "appeal-generation",
+        "title": "Appeal generation",
+        "originalPath": "/features/appeal-generation"
+      },
+      {
+        "id": "corrected-claim-submission",
+        "title": "Corrected claim submission",
+        "originalPath": "/features/corrected-claim-submission"
+      },
+      {
+        "id": "payer-procedure-analytics",
+        "title": "Payer procedure analytics",
+        "originalPath": "/features/payer-procedure-analytics"
+      },
+      {
+        "id": "treatment-ingestion",
+        "title": "Treatment ingestion",
+        "originalPath": "/features/treatment-ingestion"
+      },
+      {
+        "id": "esrd-base-rate-library",
+        "title": "ESRD base rate library",
+        "originalPath": "/features/esrd-base-rate-library"
+      },
+      {
+        "id": "wage-index-adjustment",
+        "title": "Wage index adjustment",
+        "originalPath": "/features/wage-index-adjustment"
+      },
+      {
+        "id": "low-volume-adjustment",
+        "title": "Low-volume adjustment",
+        "originalPath": "/features/low-volume-adjustment"
+      },
+      {
+        "id": "rural-adjustment",
+        "title": "Rural adjustment",
+        "originalPath": "/features/rural-adjustment"
+      },
+      {
+        "id": "onset-adjustment",
+        "title": "Onset adjustment",
+        "originalPath": "/features/onset-adjustment"
+      },
+      {
+        "id": "comorbidity-adjustment",
+        "title": "Comorbidity adjustment",
+        "originalPath": "/features/comorbidity-adjustment"
+      },
+      {
+        "id": "training-add-on-calculation",
+        "title": "Training add-on calculation",
+        "originalPath": "/features/training-add-on-calculation"
+      },
+      {
+        "id": "tdapa-treatment",
+        "title": "TDAPA treatment",
+        "originalPath": "/features/tdapa-treatment"
+      },
+      {
+        "id": "outlier-service-calculation",
+        "title": "Outlier service calculation",
+        "originalPath": "/features/outlier-service-calculation"
+      },
+      {
+        "id": "facility-modality-analytics",
+        "title": "Facility modality analytics",
+        "originalPath": "/features/facility-modality-analytics"
+      },
+      {
+        "id": "equipment-hcpcs-registry",
+        "title": "Equipment HCPCS registry",
+        "originalPath": "/features/equipment-hcpcs-registry"
+      },
+      {
+        "id": "patient-order-tracking",
+        "title": "Patient order tracking",
+        "originalPath": "/features/patient-order-tracking"
+      },
+      {
+        "id": "coverage-necessity-rules",
+        "title": "Coverage necessity rules",
+        "originalPath": "/features/coverage-necessity-rules"
+      },
+      {
+        "id": "prior-authorization",
+        "title": "Prior authorization",
+        "originalPath": "/features/prior-authorization"
+      },
+      {
+        "id": "capped-rental-tracking",
+        "title": "Capped rental tracking",
+        "originalPath": "/features/capped-rental-tracking"
+      },
+      {
+        "id": "purchase-versus-rental-calculation",
+        "title": "Purchase versus rental calculation",
+        "originalPath": "/features/purchase-versus-rental-calculation"
+      },
+      {
+        "id": "competitive-bidding-adjustment",
+        "title": "Competitive bidding adjustment",
+        "originalPath": "/features/competitive-bidding-adjustment"
+      },
+      {
+        "id": "oxygen-supply-replenishment",
+        "title": "Oxygen supply replenishment",
+        "originalPath": "/features/oxygen-supply-replenishment"
+      },
+      {
+        "id": "denial-appeal-workflow",
+        "title": "Denial appeal workflow",
+        "originalPath": "/features/denial-appeal-workflow"
+      },
+      {
+        "id": "asset-return-tracking",
+        "title": "Asset return tracking",
+        "originalPath": "/features/asset-return-tracking"
+      },
+      {
+        "id": "product-payer-profitability",
+        "title": "Product payer profitability",
+        "originalPath": "/features/product-payer-profitability"
+      },
+      {
+        "id": "covered-census-registry",
+        "title": "Covered census registry",
+        "originalPath": "/features/covered-census-registry"
+      },
+      {
+        "id": "medical-claim-ingestion",
+        "title": "Medical claim ingestion",
+        "originalPath": "/features/medical-claim-ingestion"
+      },
+      {
+        "id": "pharmacy-claim-ingestion",
+        "title": "Pharmacy claim ingestion",
+        "originalPath": "/features/pharmacy-claim-ingestion"
+      },
+      {
+        "id": "specific-attachment-calculation",
+        "title": "Specific attachment calculation",
+        "originalPath": "/features/specific-attachment-calculation"
+      },
+      {
+        "id": "aggregate-attachment-calculation",
+        "title": "Aggregate attachment calculation",
+        "originalPath": "/features/aggregate-attachment-calculation"
+      },
+      {
+        "id": "aggregating-specific-deductible",
+        "title": "Aggregating-specific deductible",
+        "originalPath": "/features/aggregating-specific-deductible"
+      },
+      {
+        "id": "carrier-submission-workflow",
+        "title": "Carrier submission workflow",
+        "originalPath": "/features/carrier-submission-workflow"
+      },
+      {
+        "id": "carrier-request-management",
+        "title": "Carrier request management",
+        "originalPath": "/features/carrier-request-management"
+      },
+      {
+        "id": "site-rate-registry",
+        "title": "Site rate registry",
+        "originalPath": "/features/site-rate-registry"
+      },
+      {
+        "id": "managed-care-contract-mapping",
+        "title": "Managed-care contract mapping",
+        "originalPath": "/features/managed-care-contract-mapping"
+      },
+      {
+        "id": "encounter-ingestion",
+        "title": "Encounter ingestion",
+        "originalPath": "/features/encounter-ingestion"
+      },
+      {
+        "id": "same-day-visit-rules",
+        "title": "Same-day visit rules",
+        "originalPath": "/features/same-day-visit-rules"
+      },
+      {
+        "id": "pps-rate-calculation",
+        "title": "PPS rate calculation",
+        "originalPath": "/features/pps-rate-calculation"
+      },
+      {
+        "id": "apm-rate-calculation",
+        "title": "APM rate calculation",
+        "originalPath": "/features/apm-rate-calculation"
+      },
+      {
+        "id": "wrap-amount-calculation",
+        "title": "Wrap amount calculation",
+        "originalPath": "/features/wrap-amount-calculation"
+      },
+      {
+        "id": "state-submission-file",
+        "title": "State submission file",
+        "originalPath": "/features/state-submission-file"
+      },
+      {
+        "id": "error-response-remediation",
+        "title": "Error response remediation",
+        "originalPath": "/features/error-response-remediation"
+      },
+      {
+        "id": "aging-and-appeal-workflow",
+        "title": "Aging and appeal workflow",
+        "originalPath": "/features/aging-and-appeal-workflow"
+      },
+      {
+        "id": "site-plan-analytics",
+        "title": "Site plan analytics",
+        "originalPath": "/features/site-plan-analytics"
+      },
+      {
+        "id": "vendor-agreement-library",
+        "title": "Vendor agreement library",
+        "originalPath": "/features/vendor-agreement-library"
+      },
+      {
+        "id": "claim-encounter-ingestion",
+        "title": "Claim encounter ingestion",
+        "originalPath": "/features/claim-encounter-ingestion"
+      },
+      {
+        "id": "discount-guarantee-calculation",
+        "title": "Discount guarantee calculation",
+        "originalPath": "/features/discount-guarantee-calculation"
+      },
+      {
+        "id": "service-level-measurement",
+        "title": "Service-level measurement",
+        "originalPath": "/features/service-level-measurement"
+      },
+      {
+        "id": "implementation-milestones",
+        "title": "Implementation milestones",
+        "originalPath": "/features/implementation-milestones"
+      },
+      {
+        "id": "clinical-outcome-guarantee",
+        "title": "Clinical outcome guarantee",
+        "originalPath": "/features/clinical-outcome-guarantee"
+      },
+      {
+        "id": "engagement-guarantee",
+        "title": "Engagement guarantee",
+        "originalPath": "/features/engagement-guarantee"
+      },
+      {
+        "id": "data-delivery-sla",
+        "title": "Data delivery SLA",
+        "originalPath": "/features/data-delivery-sla"
+      },
+      {
+        "id": "member-coverage-registry",
+        "title": "Member coverage registry",
+        "originalPath": "/features/member-coverage-registry"
+      },
+      {
+        "id": "cob-questionnaire-workflow",
+        "title": "COB questionnaire workflow",
+        "originalPath": "/features/cob-questionnaire-workflow"
+      },
+      {
+        "id": "dependent-birthday-rule",
+        "title": "Dependent birthday rule",
+        "originalPath": "/features/dependent-birthday-rule"
+      },
+      {
+        "id": "working-aged-rules",
+        "title": "Working-aged rules",
+        "originalPath": "/features/working-aged-rules"
+      },
+      {
+        "id": "disability-esrd-rules",
+        "title": "Disability ESRD rules",
+        "originalPath": "/features/disability-esrd-rules"
+      },
+      {
+        "id": "claim-payer-order-calculation",
+        "title": "Claim payer-order calculation",
+        "originalPath": "/features/claim-payer-order-calculation"
+      },
+      {
+        "id": "provider-recovery-notice",
+        "title": "Provider recovery notice",
+        "originalPath": "/features/provider-recovery-notice"
+      },
+      {
+        "id": "recovery-cash-ledger",
+        "title": "Recovery cash ledger",
+        "originalPath": "/features/recovery-cash-ledger"
+      },
+      {
+        "id": "cob-root-cause-analytics",
+        "title": "COB root-cause analytics",
+        "originalPath": "/features/cob-root-cause-analytics"
+      },
+      {
+        "id": "contract-ingestion-and-versioning",
+        "title": "Contract ingestion & versioning",
+        "originalPath": "/features/contract-ingestion-and-versioning"
+      },
+      {
+        "id": "claim-and-835-remittance-ingestion",
+        "title": "Claim and 835 remittance ingestion",
+        "originalPath": "/features/claim-and-835-remittance-ingestion"
+      },
+      {
+        "id": "stop-loss-and-outlier-calculation",
+        "title": "Stop-loss and outlier calculation",
+        "originalPath": "/features/stop-loss-and-outlier-calculation"
+      },
+      {
+        "id": "payer-appeal-package-generation",
+        "title": "Payer appeal package generation",
+        "originalPath": "/features/payer-appeal-package-generation"
+      },
+      {
+        "id": "payer-response-tracking",
+        "title": "Payer response tracking",
+        "originalPath": "/features/payer-response-tracking"
+      },
+      {
+        "id": "recovery-and-root-cause-analytics",
+        "title": "Recovery and root-cause analytics",
+        "originalPath": "/features/recovery-and-root-cause-analytics"
+      },
+      {
+        "id": "patient-episode-registry",
+        "title": "Patient episode registry",
+        "originalPath": "/features/patient-episode-registry"
+      },
+      {
+        "id": "plan-of-care-tracking",
+        "title": "Plan-of-care tracking",
+        "originalPath": "/features/plan-of-care-tracking"
+      },
+      {
+        "id": "evv-event-ingestion",
+        "title": "EVV event ingestion",
+        "originalPath": "/features/evv-event-ingestion"
+      },
+      {
+        "id": "missing-check-in-remediation",
+        "title": "Missing check-in remediation",
+        "originalPath": "/features/missing-check-in-remediation"
+      },
+      {
+        "id": "pdgm-grouping-reconstruction",
+        "title": "PDGM grouping reconstruction",
+        "originalPath": "/features/pdgm-grouping-reconstruction"
+      },
+      {
+        "id": "lupa-threshold-monitoring",
+        "title": "LUPA threshold monitoring",
+        "originalPath": "/features/lupa-threshold-monitoring"
+      },
+      {
+        "id": "claim-generation-and-scrub",
+        "title": "Claim generation and scrub",
+        "originalPath": "/features/claim-generation-and-scrub"
+      },
+      {
+        "id": "episode-profitability-analytics",
+        "title": "Episode profitability analytics",
+        "originalPath": "/features/episode-profitability-analytics"
+      },
+      {
+        "id": "election-benefit-registry",
+        "title": "Election benefit registry",
+        "originalPath": "/features/election-benefit-registry"
+      },
+      {
+        "id": "beneficiary-count-calculation",
+        "title": "Beneficiary count calculation",
+        "originalPath": "/features/beneficiary-count-calculation"
+      },
+      {
+        "id": "service-day-ingestion",
+        "title": "Service-day ingestion",
+        "originalPath": "/features/service-day-ingestion"
+      },
+      {
+        "id": "transfer-allocation",
+        "title": "Transfer allocation",
+        "originalPath": "/features/transfer-allocation"
+      },
+      {
+        "id": "live-discharge-treatment",
+        "title": "Live-discharge treatment",
+        "originalPath": "/features/live-discharge-treatment"
+      },
+      {
+        "id": "aggregate-cap-calculation",
+        "title": "Aggregate cap calculation",
+        "originalPath": "/features/aggregate-cap-calculation"
+      },
+      {
+        "id": "proportional-method",
+        "title": "Proportional method",
+        "originalPath": "/features/proportional-method"
+      },
+      {
+        "id": "streamlined-method",
+        "title": "Streamlined method",
+        "originalPath": "/features/streamlined-method"
+      },
+      {
+        "id": "inpatient-day-ratio",
+        "title": "Inpatient day ratio",
+        "originalPath": "/features/inpatient-day-ratio"
+      },
+      {
+        "id": "sequestration-treatment",
+        "title": "Sequestration treatment",
+        "originalPath": "/features/sequestration-treatment"
+      },
+      {
+        "id": "provider-cap-analytics",
+        "title": "Provider cap analytics",
+        "originalPath": "/features/provider-cap-analytics"
+      },
+      {
+        "id": "implant-and-device-master",
+        "title": "Implant and device master",
+        "originalPath": "/features/implant-and-device-master"
+      },
+      {
+        "id": "vendor-contract-library",
+        "title": "Vendor contract library",
+        "originalPath": "/features/vendor-contract-library"
+      },
+      {
+        "id": "or-case-ingestion",
+        "title": "OR case ingestion",
+        "originalPath": "/features/or-case-ingestion"
+      },
+      {
+        "id": "implant-log-ingestion",
+        "title": "Implant-log ingestion",
+        "originalPath": "/features/implant-log-ingestion"
+      },
+      {
+        "id": "preference-card-comparison",
+        "title": "Preference-card comparison",
+        "originalPath": "/features/preference-card-comparison"
+      },
+      {
+        "id": "corrected-claim-workflow",
+        "title": "Corrected-claim workflow",
+        "originalPath": "/features/corrected-claim-workflow"
+      },
+      {
+        "id": "procedure-vendor-and-surgeon-analytics",
+        "title": "Procedure vendor and surgeon analytics",
+        "originalPath": "/features/procedure-vendor-and-surgeon-analytics"
+      },
+      {
+        "id": "encounter-timeline-reconstruction",
+        "title": "Encounter timeline reconstruction",
+        "originalPath": "/features/encounter-timeline-reconstruction"
+      },
+      {
+        "id": "utilization-review-queue",
+        "title": "Utilization review queue",
+        "originalPath": "/features/utilization-review-queue"
+      },
+      {
+        "id": "hours-and-unit-calculation",
+        "title": "Hours and unit calculation",
+        "originalPath": "/features/hours-and-unit-calculation"
+      },
+      {
+        "id": "ancillary-charge-capture",
+        "title": "Ancillary charge capture",
+        "originalPath": "/features/ancillary-charge-capture"
+      },
+      {
+        "id": "claim-status-coding",
+        "title": "Claim status coding",
+        "originalPath": "/features/claim-status-coding"
+      },
+      {
+        "id": "appeal-packet-generation",
+        "title": "Appeal packet generation",
+        "originalPath": "/features/appeal-packet-generation"
+      },
+      {
+        "id": "professional-facility-claim-linking",
+        "title": "Professional facility claim linking",
+        "originalPath": "/features/professional-facility-claim-linking"
+      },
+      {
+        "id": "charge-capture-review",
+        "title": "Charge capture review",
+        "originalPath": "/features/charge-capture-review"
+      },
+      {
+        "id": "department-economics",
+        "title": "Department economics",
+        "originalPath": "/features/department-economics"
+      },
+      {
+        "id": "inpatient-claim-ingestion",
+        "title": "Inpatient claim ingestion",
+        "originalPath": "/features/inpatient-claim-ingestion"
+      },
+      {
+        "id": "post-acute-claim-linkage",
+        "title": "Post-acute claim linkage",
+        "originalPath": "/features/post-acute-claim-linkage"
+      },
+      {
+        "id": "drg-transfer-rule-library",
+        "title": "DRG transfer-rule library",
+        "originalPath": "/features/drg-transfer-rule-library"
+      },
+      {
+        "id": "interrupted-stay-review",
+        "title": "Interrupted stay review",
+        "originalPath": "/features/interrupted-stay-review"
+      },
+      {
+        "id": "corrected-claim-generation",
+        "title": "Corrected claim generation",
+        "originalPath": "/features/corrected-claim-generation"
+      },
+      {
+        "id": "facility-drg-analytics",
+        "title": "Facility DRG analytics",
+        "originalPath": "/features/facility-drg-analytics"
+      },
+      {
+        "id": "test-and-panel-catalog",
+        "title": "Test and panel catalog",
+        "originalPath": "/features/test-and-panel-catalog"
+      },
+      {
+        "id": "order-specimen-ingestion",
+        "title": "Order specimen ingestion",
+        "originalPath": "/features/order-specimen-ingestion"
+      },
+      {
+        "id": "diagnosis-coverage-rules",
+        "title": "Diagnosis coverage rules",
+        "originalPath": "/features/diagnosis-coverage-rules"
+      },
+      {
+        "id": "claim-submission",
+        "title": "Claim submission",
+        "originalPath": "/features/claim-submission"
+      },
+      {
+        "id": "test-payer-and-provider-analytics",
+        "title": "Test payer and provider analytics",
+        "originalPath": "/features/test-payer-and-provider-analytics"
+      },
+      {
+        "id": "member-identity-resolution",
+        "title": "Member identity resolution",
+        "originalPath": "/features/member-identity-resolution"
+      },
+      {
+        "id": "provider-notification-workflow",
+        "title": "Provider notification workflow",
+        "originalPath": "/features/provider-notification-workflow"
+      },
+      {
+        "id": "plan-recovery-demand",
+        "title": "Plan recovery demand",
+        "originalPath": "/features/plan-recovery-demand"
+      },
+      {
+        "id": "cash-recovery-tracking",
+        "title": "Cash recovery tracking",
+        "originalPath": "/features/cash-recovery-tracking"
+      },
+      {
+        "id": "program-integrity-analytics",
+        "title": "Program integrity analytics",
+        "originalPath": "/features/program-integrity-analytics"
+      },
+      {
+        "id": "program-authority-library",
+        "title": "Program authority library",
+        "originalPath": "/features/program-authority-library"
+      },
+      {
+        "id": "base-claim-ingestion",
+        "title": "Base claim ingestion",
+        "originalPath": "/features/base-claim-ingestion"
+      },
+      {
+        "id": "uncompensated-care-calculation",
+        "title": "Uncompensated care calculation",
+        "originalPath": "/features/uncompensated-care-calculation"
+      },
+      {
+        "id": "dsh-limit-calculation",
+        "title": "DSH limit calculation",
+        "originalPath": "/features/dsh-limit-calculation"
+      },
+      {
+        "id": "intergovernmental-transfer",
+        "title": "Intergovernmental transfer",
+        "originalPath": "/features/intergovernmental-transfer"
+      },
+      {
+        "id": "pool-allocation-calculation",
+        "title": "Pool allocation calculation",
+        "originalPath": "/features/pool-allocation-calculation"
+      },
+      {
+        "id": "provider-dispute-workflow",
+        "title": "Provider dispute workflow",
+        "originalPath": "/features/provider-dispute-workflow"
+      },
+      {
+        "id": "program-provider-analytics",
+        "title": "Program provider analytics",
+        "originalPath": "/features/program-provider-analytics"
+      },
+      {
+        "id": "distributor-customer-mapping",
+        "title": "Distributor customer mapping",
+        "originalPath": "/features/distributor-customer-mapping"
+      },
+      {
+        "id": "device-sku-registry",
+        "title": "Device SKU registry",
+        "originalPath": "/features/device-sku-registry"
+      },
+      {
+        "id": "volume-rebate-calculation",
+        "title": "Volume rebate calculation",
+        "originalPath": "/features/volume-rebate-calculation"
+      },
+      {
+        "id": "dispute-workflow",
+        "title": "Dispute workflow",
+        "originalPath": "/features/dispute-workflow"
+      },
+      {
+        "id": "device-channel-analytics",
+        "title": "Device channel analytics",
+        "originalPath": "/features/device-channel-analytics"
+      },
+      {
+        "id": "contract-and-segment-registry",
+        "title": "Contract and segment registry",
+        "originalPath": "/features/contract-and-segment-registry"
+      },
+      {
+        "id": "star-measure-ingestion",
+        "title": "Star measure ingestion",
+        "originalPath": "/features/star-measure-ingestion"
+      },
+      {
+        "id": "double-bonus-county-logic",
+        "title": "Double-bonus county logic",
+        "originalPath": "/features/double-bonus-county-logic"
+      },
+      {
+        "id": "new-plan-treatment",
+        "title": "New-plan treatment",
+        "originalPath": "/features/new-plan-treatment"
+      },
+      {
+        "id": "cms-variance-case-workflow",
+        "title": "CMS variance case workflow",
+        "originalPath": "/features/cms-variance-case-workflow"
+      },
+      {
+        "id": "provider-and-filing-year-registry",
+        "title": "Provider and filing-year registry",
+        "originalPath": "/features/provider-and-filing-year-registry"
+      },
+      {
+        "id": "trial-balance-import-and-mapping",
+        "title": "Trial-balance import and mapping",
+        "originalPath": "/features/trial-balance-import-and-mapping"
+      },
+      {
+        "id": "overhead-step-down-allocation",
+        "title": "Overhead step-down allocation",
+        "originalPath": "/features/overhead-step-down-allocation"
+      },
+      {
+        "id": "medicare-utilization-statistics",
+        "title": "Medicare utilization statistics",
+        "originalPath": "/features/medicare-utilization-statistics"
+      },
+      {
+        "id": "medicare-bad-debt-recovery",
+        "title": "Medicare bad-debt recovery",
+        "originalPath": "/features/medicare-bad-debt-recovery"
+      },
+      {
+        "id": "dsh-and-uncompensated-care-support",
+        "title": "DSH and uncompensated-care support",
+        "originalPath": "/features/dsh-and-uncompensated-care-support"
+      },
+      {
+        "id": "desk-review-request-management",
+        "title": "Desk-review request management",
+        "originalPath": "/features/desk-review-request-management"
+      },
+      {
+        "id": "reopening-and-appeal-workflow",
+        "title": "Reopening and appeal workflow",
+        "originalPath": "/features/reopening-and-appeal-workflow"
+      },
+      {
+        "id": "chart-review",
+        "title": "Chart Review",
+        "originalPath": "/features/chart-review"
+      },
+      {
+        "id": "liability-event-registry",
+        "title": "Liability event registry",
+        "originalPath": "/features/liability-event-registry"
+      },
+      {
+        "id": "claim-relatedness-review",
+        "title": "Claim relatedness review",
+        "originalPath": "/features/claim-relatedness-review"
+      },
+      {
+        "id": "unrelated-claim-dispute",
+        "title": "Unrelated claim dispute",
+        "originalPath": "/features/unrelated-claim-dispute"
+      },
+      {
+        "id": "demand-amount-calculation",
+        "title": "Demand amount calculation",
+        "originalPath": "/features/demand-amount-calculation"
+      },
+      {
+        "id": "final-demand-tracking",
+        "title": "Final demand tracking",
+        "originalPath": "/features/final-demand-tracking"
+      },
+      {
+        "id": "appeal-waiver-workflow",
+        "title": "Appeal waiver workflow",
+        "originalPath": "/features/appeal-waiver-workflow"
+      },
+      {
+        "id": "case-outcome-analytics",
+        "title": "Case outcome analytics",
+        "originalPath": "/features/case-outcome-analytics"
+      },
+      {
+        "id": "payer-contract-library",
+        "title": "Payer contract library",
+        "originalPath": "/features/payer-contract-library"
+      },
+      {
+        "id": "neonatal-case-registry",
+        "title": "Neonatal case registry",
+        "originalPath": "/features/neonatal-case-registry"
+      },
+      {
+        "id": "acuity-level-timeline",
+        "title": "Acuity level timeline",
+        "originalPath": "/features/acuity-level-timeline"
+      },
+      {
+        "id": "case-rate-episode-logic",
+        "title": "Case-rate episode logic",
+        "originalPath": "/features/case-rate-episode-logic"
+      },
+      {
+        "id": "implant-carve-out-calculation",
+        "title": "Implant carve-out calculation",
+        "originalPath": "/features/implant-carve-out-calculation"
+      },
+      {
+        "id": "drug-carve-out-calculation",
+        "title": "Drug carve-out calculation",
+        "originalPath": "/features/drug-carve-out-calculation"
+      },
+      {
+        "id": "transport-carve-out-review",
+        "title": "Transport carve-out review",
+        "originalPath": "/features/transport-carve-out-review"
+      },
+      {
+        "id": "outlier-threshold-calculation",
+        "title": "Outlier threshold calculation",
+        "originalPath": "/features/outlier-threshold-calculation"
+      },
+      {
+        "id": "stop-loss-calculation",
+        "title": "Stop-loss calculation",
+        "originalPath": "/features/stop-loss-calculation"
+      },
+      {
+        "id": "payer-appeal-workflow",
+        "title": "Payer appeal workflow",
+        "originalPath": "/features/payer-appeal-workflow"
+      },
+      {
+        "id": "program-payer-analytics",
+        "title": "Program payer analytics",
+        "originalPath": "/features/program-payer-analytics"
+      },
+      {
+        "id": "payer-transplant-contract-library",
+        "title": "Payer transplant contract library",
+        "originalPath": "/features/payer-transplant-contract-library"
+      },
+      {
+        "id": "patient-case-registry",
+        "title": "Patient case registry",
+        "originalPath": "/features/patient-case-registry"
+      },
+      {
+        "id": "evaluation-phase-tracking",
+        "title": "Evaluation phase tracking",
+        "originalPath": "/features/evaluation-phase-tracking"
+      },
+      {
+        "id": "donor-procurement-expense",
+        "title": "Donor procurement expense",
+        "originalPath": "/features/donor-procurement-expense"
+      },
+      {
+        "id": "case-rate-episode-definition",
+        "title": "Case-rate episode definition",
+        "originalPath": "/features/case-rate-episode-definition"
+      },
+      {
+        "id": "outlier-stop-loss-calculation",
+        "title": "Outlier stop-loss calculation",
+        "originalPath": "/features/outlier-stop-loss-calculation"
+      },
+      {
+        "id": "travel-lodging-benefit",
+        "title": "Travel lodging benefit",
+        "originalPath": "/features/travel-lodging-benefit"
+      },
+      {
+        "id": "claim-remittance-ingestion",
+        "title": "Claim remittance ingestion",
+        "originalPath": "/features/claim-remittance-ingestion"
+      },
+      {
+        "id": "contract-rate-library",
+        "title": "Contract rate library",
+        "originalPath": "/features/contract-rate-library"
+      },
+      {
+        "id": "member-month-ingestion",
+        "title": "Member month ingestion",
+        "originalPath": "/features/member-month-ingestion"
+      },
+      {
+        "id": "age-sex-factor-calculation",
+        "title": "Age sex factor calculation",
+        "originalPath": "/features/age-sex-factor-calculation"
+      },
+      {
+        "id": "encounter-completeness",
+        "title": "Encounter completeness",
+        "originalPath": "/features/encounter-completeness"
+      },
+      {
+        "id": "stop-loss-recovery",
+        "title": "Stop-loss recovery",
+        "originalPath": "/features/stop-loss-recovery"
+      },
+      {
+        "id": "withhold-calculation",
+        "title": "Withhold calculation",
+        "originalPath": "/features/withhold-calculation"
+      },
+      {
+        "id": "variance-dispute-workflow",
+        "title": "Variance dispute workflow",
+        "originalPath": "/features/variance-dispute-workflow"
+      },
+      {
+        "id": "group-plan-analytics",
+        "title": "Group plan analytics",
+        "originalPath": "/features/group-plan-analytics"
+      },
+      {
+        "id": "reviewer-assignment",
+        "title": "Reviewer Assignment",
+        "originalPath": "/features/reviewer-assignment"
+      },
+      {
+        "id": "provider-master-registry",
+        "title": "Provider master registry",
+        "originalPath": "/features/provider-master-registry"
+      },
+      {
+        "id": "license-credential-monitoring",
+        "title": "License credential monitoring",
+        "originalPath": "/features/license-credential-monitoring"
+      },
+      {
+        "id": "sanction-exclusion-screening",
+        "title": "Sanction exclusion screening",
+        "originalPath": "/features/sanction-exclusion-screening"
+      },
+      {
+        "id": "ownership-disclosure-tracking",
+        "title": "Ownership disclosure tracking",
+        "originalPath": "/features/ownership-disclosure-tracking"
+      },
+      {
+        "id": "reassignment-management",
+        "title": "Reassignment management",
+        "originalPath": "/features/reassignment-management"
+      },
+      {
+        "id": "payer-application-workflow",
+        "title": "Payer application workflow",
+        "originalPath": "/features/payer-application-workflow"
+      },
+      {
+        "id": "pecos-data-comparison",
+        "title": "PECOS data comparison",
+        "originalPath": "/features/pecos-data-comparison"
+      },
+      {
+        "id": "roster-submission-tracking",
+        "title": "Roster submission tracking",
+        "originalPath": "/features/roster-submission-tracking"
+      },
+      {
+        "id": "payer-response-remediation",
+        "title": "Payer response remediation",
+        "originalPath": "/features/payer-response-remediation"
+      },
+      {
+        "id": "provider-payer-analytics",
+        "title": "Provider payer analytics",
+        "originalPath": "/features/provider-payer-analytics"
+      },
+      {
+        "id": "clinic-status-registry",
+        "title": "Clinic status registry",
+        "originalPath": "/features/clinic-status-registry"
+      },
+      {
+        "id": "trial-balance-ingestion",
+        "title": "Trial balance ingestion",
+        "originalPath": "/features/trial-balance-ingestion"
+      },
+      {
+        "id": "provider-fte-calculation",
+        "title": "Provider FTE calculation",
+        "originalPath": "/features/provider-fte-calculation"
+      },
+      {
+        "id": "overhead-allocation",
+        "title": "Overhead allocation",
+        "originalPath": "/features/overhead-allocation"
+      },
+      {
+        "id": "telehealth-treatment",
+        "title": "Telehealth treatment",
+        "originalPath": "/features/telehealth-treatment"
+      },
+      {
+        "id": "air-calculation",
+        "title": "AIR calculation",
+        "originalPath": "/features/air-calculation"
+      },
+      {
+        "id": "resident-and-stay-registry",
+        "title": "Resident and stay registry",
+        "originalPath": "/features/resident-and-stay-registry"
+      },
+      {
+        "id": "mds-assessment-ingestion",
+        "title": "MDS assessment ingestion",
+        "originalPath": "/features/mds-assessment-ingestion"
+      },
+      {
+        "id": "icd-10-category-mapping",
+        "title": "ICD-10 category mapping",
+        "originalPath": "/features/icd-10-category-mapping"
+      },
+      {
+        "id": "pt-component-calculation",
+        "title": "PT component calculation",
+        "originalPath": "/features/pt-component-calculation"
+      },
+      {
+        "id": "ot-component-calculation",
+        "title": "OT component calculation",
+        "originalPath": "/features/ot-component-calculation"
+      },
+      {
+        "id": "slp-component-calculation",
+        "title": "SLP component calculation",
+        "originalPath": "/features/slp-component-calculation"
+      },
+      {
+        "id": "nursing-component-calculation",
+        "title": "Nursing component calculation",
+        "originalPath": "/features/nursing-component-calculation"
+      },
+      {
+        "id": "nta-component-calculation",
+        "title": "NTA component calculation",
+        "originalPath": "/features/nta-component-calculation"
+      },
+      {
+        "id": "variable-per-diem-adjustment",
+        "title": "Variable per-diem adjustment",
+        "originalPath": "/features/variable-per-diem-adjustment"
+      },
+      {
+        "id": "hiv-aids-adjustment",
+        "title": "HIV AIDS adjustment",
+        "originalPath": "/features/hiv-aids-adjustment"
+      },
+      {
+        "id": "vbp-adjustment",
+        "title": "VBP adjustment",
+        "originalPath": "/features/vbp-adjustment"
+      },
+      {
+        "id": "program-agreement-library",
+        "title": "Program agreement library",
+        "originalPath": "/features/program-agreement-library"
+      },
+      {
+        "id": "claim-completion-factor",
+        "title": "Claim completion factor",
+        "originalPath": "/features/claim-completion-factor"
+      },
+      {
+        "id": "minimum-savings-rate",
+        "title": "Minimum savings rate",
+        "originalPath": "/features/minimum-savings-rate"
+      },
+      {
+        "id": "shared-savings-calculation",
+        "title": "Shared savings calculation",
+        "originalPath": "/features/shared-savings-calculation"
+      },
+      {
+        "id": "shared-loss-calculation",
+        "title": "Shared loss calculation",
+        "originalPath": "/features/shared-loss-calculation"
+      },
+      {
+        "id": "provider-distribution-workflow",
+        "title": "Provider distribution workflow",
+        "originalPath": "/features/provider-distribution-workflow"
+      },
+      {
+        "id": "program-performance-analytics",
+        "title": "Program performance analytics",
+        "originalPath": "/features/program-performance-analytics"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "denial-classification",
+      "plan-classification-mapping",
+      "network-admission-analysis",
+      "out-of-network-access-analysis",
+      "comparative-analysis-workbench",
+      "alternate-benefit-analysis",
+      "bundling-analysis",
+      "missing-treatment-detection",
+      "contract-basis-and-exclusion-analysis",
+      "employer-plan-matching",
+      "accident-liability-detection",
+      "bundling-and-carve-out-analysis",
+      "denial-and-adjustment-classification",
+      "liability-forecast",
+      "missing-charge-detection",
+      "duplicate-implant-charge-detection",
+      "medical-necessity-scoring",
+      "denial-root-cause-analysis",
+      "transfer-destination-matching",
+      "same-day-readmission-analysis",
+      "interstate-coverage-matching",
+      "medicare-overlap-detection",
+      "marketplace-overlap-detection",
+      "duplicate-claim-detection",
+      "distributor-deduction-matching",
+      "county-benchmark-mapping",
+      "claim-remittance-matching",
+      "claim-hold-detection",
+      "productivity-standard-analysis",
+      "bad-debt-analysis",
+      "benchmark-construction",
+      "trend-factor-calculation",
+      "analysis",
+      "denial-analyzer-predict-reversals-rec",
+      "coding-recommender-suggest-icd-10cpt",
+      "contract-analyzer",
+      "prior-auth-approval-likelihood-predic"
+    ],
+    "ai": true,
+    "representativeId": "denial-classification",
+    "description": "One assistant for 37 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "denial-classification",
+        "title": "Denial classification",
+        "originalPath": "/features/denial-classification"
+      },
+      {
+        "id": "plan-classification-mapping",
+        "title": "Plan classification mapping",
+        "originalPath": "/features/plan-classification-mapping"
+      },
+      {
+        "id": "network-admission-analysis",
+        "title": "Network admission analysis",
+        "originalPath": "/features/network-admission-analysis"
+      },
+      {
+        "id": "out-of-network-access-analysis",
+        "title": "Out-of-network access analysis",
+        "originalPath": "/features/out-of-network-access-analysis"
+      },
+      {
+        "id": "comparative-analysis-workbench",
+        "title": "Comparative analysis workbench",
+        "originalPath": "/features/comparative-analysis-workbench"
+      },
+      {
+        "id": "alternate-benefit-analysis",
+        "title": "Alternate benefit analysis",
+        "originalPath": "/features/alternate-benefit-analysis"
+      },
+      {
+        "id": "bundling-analysis",
+        "title": "Bundling analysis",
+        "originalPath": "/features/bundling-analysis"
+      },
+      {
+        "id": "missing-treatment-detection",
+        "title": "Missing treatment detection",
+        "originalPath": "/features/missing-treatment-detection"
+      },
+      {
+        "id": "contract-basis-and-exclusion-analysis",
+        "title": "Contract basis and exclusion analysis",
+        "originalPath": "/features/contract-basis-and-exclusion-analysis"
+      },
+      {
+        "id": "employer-plan-matching",
+        "title": "Employer plan matching",
+        "originalPath": "/features/employer-plan-matching"
+      },
+      {
+        "id": "accident-liability-detection",
+        "title": "Accident liability detection",
+        "originalPath": "/features/accident-liability-detection"
+      },
+      {
+        "id": "bundling-and-carve-out-analysis",
+        "title": "Bundling and carve-out analysis",
+        "originalPath": "/features/bundling-and-carve-out-analysis"
+      },
+      {
+        "id": "denial-and-adjustment-classification",
+        "title": "Denial and adjustment classification",
+        "originalPath": "/features/denial-and-adjustment-classification"
+      },
+      {
+        "id": "liability-forecast",
+        "title": "Liability forecast",
+        "originalPath": "/features/liability-forecast"
+      },
+      {
+        "id": "missing-charge-detection",
+        "title": "Missing-charge detection",
+        "originalPath": "/features/missing-charge-detection"
+      },
+      {
+        "id": "duplicate-implant-charge-detection",
+        "title": "Duplicate implant charge detection",
+        "originalPath": "/features/duplicate-implant-charge-detection"
+      },
+      {
+        "id": "medical-necessity-scoring",
+        "title": "Medical necessity scoring",
+        "originalPath": "/features/medical-necessity-scoring"
+      },
+      {
+        "id": "denial-root-cause-analysis",
+        "title": "Denial root-cause analysis",
+        "originalPath": "/features/denial-root-cause-analysis"
+      },
+      {
+        "id": "transfer-destination-matching",
+        "title": "Transfer destination matching",
+        "originalPath": "/features/transfer-destination-matching"
+      },
+      {
+        "id": "same-day-readmission-analysis",
+        "title": "Same-day readmission analysis",
+        "originalPath": "/features/same-day-readmission-analysis"
+      },
+      {
+        "id": "interstate-coverage-matching",
+        "title": "Interstate coverage matching",
+        "originalPath": "/features/interstate-coverage-matching"
+      },
+      {
+        "id": "medicare-overlap-detection",
+        "title": "Medicare overlap detection",
+        "originalPath": "/features/medicare-overlap-detection"
+      },
+      {
+        "id": "marketplace-overlap-detection",
+        "title": "Marketplace overlap detection",
+        "originalPath": "/features/marketplace-overlap-detection"
+      },
+      {
+        "id": "duplicate-claim-detection",
+        "title": "Duplicate claim detection",
+        "originalPath": "/features/duplicate-claim-detection"
+      },
+      {
+        "id": "distributor-deduction-matching",
+        "title": "Distributor deduction matching",
+        "originalPath": "/features/distributor-deduction-matching"
+      },
+      {
+        "id": "county-benchmark-mapping",
+        "title": "County benchmark mapping",
+        "originalPath": "/features/county-benchmark-mapping"
+      },
+      {
+        "id": "claim-remittance-matching",
+        "title": "Claim remittance matching",
+        "originalPath": "/features/claim-remittance-matching"
+      },
+      {
+        "id": "claim-hold-detection",
+        "title": "Claim hold detection",
+        "originalPath": "/features/claim-hold-detection"
+      },
+      {
+        "id": "productivity-standard-analysis",
+        "title": "Productivity standard analysis",
+        "originalPath": "/features/productivity-standard-analysis"
+      },
+      {
+        "id": "bad-debt-analysis",
+        "title": "Bad debt analysis",
+        "originalPath": "/features/bad-debt-analysis"
+      },
+      {
+        "id": "benchmark-construction",
+        "title": "Benchmark construction",
+        "originalPath": "/features/benchmark-construction"
+      },
+      {
+        "id": "trend-factor-calculation",
+        "title": "Trend factor calculation",
+        "originalPath": "/features/trend-factor-calculation"
+      },
+      {
+        "id": "analysis",
+        "title": "AI Analysis",
+        "originalPath": "/features/analysis"
+      },
+      {
+        "id": "denial-analyzer-predict-reversals-rec",
+        "title": "Denial Analyzer",
+        "originalPath": "/features/denial-analyzer-predict-reversals-rec"
+      },
+      {
+        "id": "coding-recommender-suggest-icd-10cpt",
+        "title": "Coding Recommender",
+        "originalPath": "/features/coding-recommender-suggest-icd-10cpt"
+      },
+      {
+        "id": "contract-analyzer",
+        "title": "Contract Analyzer",
+        "originalPath": "/features/contract-analyzer"
+      },
+      {
+        "id": "prior-auth-approval-likelihood-predic",
+        "title": "Prior Auth Predictor",
+        "originalPath": "/features/prior-auth-approval-likelihood-predic"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "remittance-reconciliation",
+      "reimbursement-methodology-comparison",
+      "missing-payment-detection",
+      "claim-reconciliation",
+      "reimbursement-reconciliation",
+      "high-cost-claimant-forecasting",
+      "mco-payment-allocation",
+      "payment-receipt-matching",
+      "administrative-fee-validation",
+      "performance-credit-calculation",
+      "settlement-negotiation-workflow",
+      "credit-outcome-reconciliation",
+      "overpayment-identification",
+      "primary-payer-rebilling",
+      "contractual-claim-repricing",
+      "underpayment-case-workbench",
+      "cash-posting-reconciliation",
+      "payment-ingestion",
+      "notice-reconciliation",
+      "settlement-payment-workflow",
+      "barcode-and-udi-reconciliation",
+      "vendor-invoice-matching",
+      "hcpcs-and-revenue-code-mapping",
+      "claim-line-reconciliation",
+      "contract-price-variance",
+      "payer-reimbursement-comparison",
+      "bed-status-reconciliation",
+      "payment-reconciliation",
+      "status-revenue-analytics",
+      "site-neutral-payment-calculation",
+      "split-billing-validation",
+      "per-diem-payment-reconstruction",
+      "underpayment-detection",
+      "reference-lab-invoice-matching",
+      "client-versus-payer-billing",
+      "capitation-overpayment-calculation",
+      "fee-for-service-claim-review",
+      "upper-payment-limit-control",
+      "directed-payment-methodology",
+      "provider-tax-interaction",
+      "state-payment-file-matching",
+      "cash-reconciliation",
+      "contract-price-library",
+      "contract-price-calculation",
+      "chargeback-validation",
+      "price-protection-calculation",
+      "return-credit-coordination",
+      "settlement-reconciliation",
+      "payment-report-ingestion",
+      "expected-revenue-calculation",
+      "revenue-true-up-ledger",
+      "cost-center-classification",
+      "psandr-reconciliation",
+      "ime-and-gme-reimbursement",
+      "related-party-cost-review",
+      "reimbursement-outcome-analytics",
+      "exposure-estimate",
+      "conditional-payment-ingestion",
+      "procurement-cost-allocation",
+      "settlement-reporting-control",
+      "settlement-reserve-forecast",
+      "daily-census-reconciliation",
+      "organ-acquisition-cost",
+      "professional-facility-reconciliation",
+      "retro-eligibility-reconciliation",
+      "risk-corridor-settlement",
+      "payment-statement-matching",
+      "at-risk-revenue-calculation",
+      "allowable-cost-classification",
+      "vaccine-cost-carve-out",
+      "interim-rate-reconciliation",
+      "settlement-forecast",
+      "clinic-cost-analytics",
+      "consolidated-billing-control",
+      "facility-reimbursement-analytics",
+      "patient-attribution-reconciliation",
+      "payer-settlement-audit",
+      "revenue-cycle-optimization-modeling-clai",
+      "patient-payment-intelligence-predicting"
+    ],
+    "ai": true,
+    "representativeId": "remittance-reconciliation",
+    "description": "One assistant for 79 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "remittance-reconciliation",
+        "title": "Remittance reconciliation",
+        "originalPath": "/features/remittance-reconciliation"
+      },
+      {
+        "id": "reimbursement-methodology-comparison",
+        "title": "Reimbursement methodology comparison",
+        "originalPath": "/features/reimbursement-methodology-comparison"
+      },
+      {
+        "id": "missing-payment-detection",
+        "title": "Missing payment detection",
+        "originalPath": "/features/missing-payment-detection"
+      },
+      {
+        "id": "claim-reconciliation",
+        "title": "Claim reconciliation",
+        "originalPath": "/features/claim-reconciliation"
+      },
+      {
+        "id": "reimbursement-reconciliation",
+        "title": "Reimbursement reconciliation",
+        "originalPath": "/features/reimbursement-reconciliation"
+      },
+      {
+        "id": "high-cost-claimant-forecasting",
+        "title": "High-cost claimant forecasting",
+        "originalPath": "/features/high-cost-claimant-forecasting"
+      },
+      {
+        "id": "mco-payment-allocation",
+        "title": "MCO payment allocation",
+        "originalPath": "/features/mco-payment-allocation"
+      },
+      {
+        "id": "payment-receipt-matching",
+        "title": "Payment receipt matching",
+        "originalPath": "/features/payment-receipt-matching"
+      },
+      {
+        "id": "administrative-fee-validation",
+        "title": "Administrative fee validation",
+        "originalPath": "/features/administrative-fee-validation"
+      },
+      {
+        "id": "performance-credit-calculation",
+        "title": "Performance credit calculation",
+        "originalPath": "/features/performance-credit-calculation"
+      },
+      {
+        "id": "settlement-negotiation-workflow",
+        "title": "Settlement negotiation workflow",
+        "originalPath": "/features/settlement-negotiation-workflow"
+      },
+      {
+        "id": "credit-outcome-reconciliation",
+        "title": "Credit outcome reconciliation",
+        "originalPath": "/features/credit-outcome-reconciliation"
+      },
+      {
+        "id": "overpayment-identification",
+        "title": "Overpayment identification",
+        "originalPath": "/features/overpayment-identification"
+      },
+      {
+        "id": "primary-payer-rebilling",
+        "title": "Primary payer rebilling",
+        "originalPath": "/features/primary-payer-rebilling"
+      },
+      {
+        "id": "contractual-claim-repricing",
+        "title": "Contractual claim repricing",
+        "originalPath": "/features/contractual-claim-repricing"
+      },
+      {
+        "id": "underpayment-case-workbench",
+        "title": "Underpayment case workbench",
+        "originalPath": "/features/underpayment-case-workbench"
+      },
+      {
+        "id": "cash-posting-reconciliation",
+        "title": "Cash posting reconciliation",
+        "originalPath": "/features/cash-posting-reconciliation"
+      },
+      {
+        "id": "payment-ingestion",
+        "title": "Payment ingestion",
+        "originalPath": "/features/payment-ingestion"
+      },
+      {
+        "id": "notice-reconciliation",
+        "title": "Notice reconciliation",
+        "originalPath": "/features/notice-reconciliation"
+      },
+      {
+        "id": "settlement-payment-workflow",
+        "title": "Settlement payment workflow",
+        "originalPath": "/features/settlement-payment-workflow"
+      },
+      {
+        "id": "barcode-and-udi-reconciliation",
+        "title": "Barcode and UDI reconciliation",
+        "originalPath": "/features/barcode-and-udi-reconciliation"
+      },
+      {
+        "id": "vendor-invoice-matching",
+        "title": "Vendor invoice matching",
+        "originalPath": "/features/vendor-invoice-matching"
+      },
+      {
+        "id": "hcpcs-and-revenue-code-mapping",
+        "title": "HCPCS and revenue-code mapping",
+        "originalPath": "/features/hcpcs-and-revenue-code-mapping"
+      },
+      {
+        "id": "claim-line-reconciliation",
+        "title": "Claim-line reconciliation",
+        "originalPath": "/features/claim-line-reconciliation"
+      },
+      {
+        "id": "contract-price-variance",
+        "title": "Contract price variance",
+        "originalPath": "/features/contract-price-variance"
+      },
+      {
+        "id": "payer-reimbursement-comparison",
+        "title": "Payer reimbursement comparison",
+        "originalPath": "/features/payer-reimbursement-comparison"
+      },
+      {
+        "id": "bed-status-reconciliation",
+        "title": "Bed-status reconciliation",
+        "originalPath": "/features/bed-status-reconciliation"
+      },
+      {
+        "id": "payment-reconciliation",
+        "title": "Payment reconciliation",
+        "originalPath": "/features/payment-reconciliation"
+      },
+      {
+        "id": "status-revenue-analytics",
+        "title": "Status revenue analytics",
+        "originalPath": "/features/status-revenue-analytics"
+      },
+      {
+        "id": "site-neutral-payment-calculation",
+        "title": "Site-neutral payment calculation",
+        "originalPath": "/features/site-neutral-payment-calculation"
+      },
+      {
+        "id": "split-billing-validation",
+        "title": "Split-billing validation",
+        "originalPath": "/features/split-billing-validation"
+      },
+      {
+        "id": "per-diem-payment-reconstruction",
+        "title": "Per-diem payment reconstruction",
+        "originalPath": "/features/per-diem-payment-reconstruction"
+      },
+      {
+        "id": "underpayment-detection",
+        "title": "Underpayment detection",
+        "originalPath": "/features/underpayment-detection"
+      },
+      {
+        "id": "reference-lab-invoice-matching",
+        "title": "Reference-lab invoice matching",
+        "originalPath": "/features/reference-lab-invoice-matching"
+      },
+      {
+        "id": "client-versus-payer-billing",
+        "title": "Client versus payer billing",
+        "originalPath": "/features/client-versus-payer-billing"
+      },
+      {
+        "id": "capitation-overpayment-calculation",
+        "title": "Capitation overpayment calculation",
+        "originalPath": "/features/capitation-overpayment-calculation"
+      },
+      {
+        "id": "fee-for-service-claim-review",
+        "title": "Fee-for-service claim review",
+        "originalPath": "/features/fee-for-service-claim-review"
+      },
+      {
+        "id": "upper-payment-limit-control",
+        "title": "Upper payment limit control",
+        "originalPath": "/features/upper-payment-limit-control"
+      },
+      {
+        "id": "directed-payment-methodology",
+        "title": "Directed payment methodology",
+        "originalPath": "/features/directed-payment-methodology"
+      },
+      {
+        "id": "provider-tax-interaction",
+        "title": "Provider tax interaction",
+        "originalPath": "/features/provider-tax-interaction"
+      },
+      {
+        "id": "state-payment-file-matching",
+        "title": "State payment file matching",
+        "originalPath": "/features/state-payment-file-matching"
+      },
+      {
+        "id": "cash-reconciliation",
+        "title": "Cash reconciliation",
+        "originalPath": "/features/cash-reconciliation"
+      },
+      {
+        "id": "contract-price-library",
+        "title": "Contract price library",
+        "originalPath": "/features/contract-price-library"
+      },
+      {
+        "id": "contract-price-calculation",
+        "title": "Contract price calculation",
+        "originalPath": "/features/contract-price-calculation"
+      },
+      {
+        "id": "chargeback-validation",
+        "title": "Chargeback validation",
+        "originalPath": "/features/chargeback-validation"
+      },
+      {
+        "id": "price-protection-calculation",
+        "title": "Price-protection calculation",
+        "originalPath": "/features/price-protection-calculation"
+      },
+      {
+        "id": "return-credit-coordination",
+        "title": "Return credit coordination",
+        "originalPath": "/features/return-credit-coordination"
+      },
+      {
+        "id": "settlement-reconciliation",
+        "title": "Settlement reconciliation",
+        "originalPath": "/features/settlement-reconciliation"
+      },
+      {
+        "id": "payment-report-ingestion",
+        "title": "Payment report ingestion",
+        "originalPath": "/features/payment-report-ingestion"
+      },
+      {
+        "id": "expected-revenue-calculation",
+        "title": "Expected revenue calculation",
+        "originalPath": "/features/expected-revenue-calculation"
+      },
+      {
+        "id": "revenue-true-up-ledger",
+        "title": "Revenue true-up ledger",
+        "originalPath": "/features/revenue-true-up-ledger"
+      },
+      {
+        "id": "cost-center-classification",
+        "title": "Cost-center classification",
+        "originalPath": "/features/cost-center-classification"
+      },
+      {
+        "id": "psandr-reconciliation",
+        "title": "PS&R reconciliation",
+        "originalPath": "/features/psandr-reconciliation"
+      },
+      {
+        "id": "ime-and-gme-reimbursement",
+        "title": "IME and GME reimbursement",
+        "originalPath": "/features/ime-and-gme-reimbursement"
+      },
+      {
+        "id": "related-party-cost-review",
+        "title": "Related-party cost review",
+        "originalPath": "/features/related-party-cost-review"
+      },
+      {
+        "id": "reimbursement-outcome-analytics",
+        "title": "Reimbursement outcome analytics",
+        "originalPath": "/features/reimbursement-outcome-analytics"
+      },
+      {
+        "id": "exposure-estimate",
+        "title": "Draft: Repayment Exposure Estimator",
+        "originalPath": "/features/exposure-estimate"
+      },
+      {
+        "id": "conditional-payment-ingestion",
+        "title": "Conditional payment ingestion",
+        "originalPath": "/features/conditional-payment-ingestion"
+      },
+      {
+        "id": "procurement-cost-allocation",
+        "title": "Procurement cost allocation",
+        "originalPath": "/features/procurement-cost-allocation"
+      },
+      {
+        "id": "settlement-reporting-control",
+        "title": "Settlement reporting control",
+        "originalPath": "/features/settlement-reporting-control"
+      },
+      {
+        "id": "settlement-reserve-forecast",
+        "title": "Settlement reserve forecast",
+        "originalPath": "/features/settlement-reserve-forecast"
+      },
+      {
+        "id": "daily-census-reconciliation",
+        "title": "Daily census reconciliation",
+        "originalPath": "/features/daily-census-reconciliation"
+      },
+      {
+        "id": "organ-acquisition-cost",
+        "title": "Organ acquisition cost",
+        "originalPath": "/features/organ-acquisition-cost"
+      },
+      {
+        "id": "professional-facility-reconciliation",
+        "title": "Professional facility reconciliation",
+        "originalPath": "/features/professional-facility-reconciliation"
+      },
+      {
+        "id": "retro-eligibility-reconciliation",
+        "title": "Retro eligibility reconciliation",
+        "originalPath": "/features/retro-eligibility-reconciliation"
+      },
+      {
+        "id": "risk-corridor-settlement",
+        "title": "Risk corridor settlement",
+        "originalPath": "/features/risk-corridor-settlement"
+      },
+      {
+        "id": "payment-statement-matching",
+        "title": "Payment statement matching",
+        "originalPath": "/features/payment-statement-matching"
+      },
+      {
+        "id": "at-risk-revenue-calculation",
+        "title": "At-risk revenue calculation",
+        "originalPath": "/features/at-risk-revenue-calculation"
+      },
+      {
+        "id": "allowable-cost-classification",
+        "title": "Allowable cost classification",
+        "originalPath": "/features/allowable-cost-classification"
+      },
+      {
+        "id": "vaccine-cost-carve-out",
+        "title": "Vaccine cost carve-out",
+        "originalPath": "/features/vaccine-cost-carve-out"
+      },
+      {
+        "id": "interim-rate-reconciliation",
+        "title": "Interim rate reconciliation",
+        "originalPath": "/features/interim-rate-reconciliation"
+      },
+      {
+        "id": "settlement-forecast",
+        "title": "Settlement forecast",
+        "originalPath": "/features/settlement-forecast"
+      },
+      {
+        "id": "clinic-cost-analytics",
+        "title": "Clinic cost analytics",
+        "originalPath": "/features/clinic-cost-analytics"
+      },
+      {
+        "id": "consolidated-billing-control",
+        "title": "Consolidated billing control",
+        "originalPath": "/features/consolidated-billing-control"
+      },
+      {
+        "id": "facility-reimbursement-analytics",
+        "title": "Facility reimbursement analytics",
+        "originalPath": "/features/facility-reimbursement-analytics"
+      },
+      {
+        "id": "patient-attribution-reconciliation",
+        "title": "Patient attribution reconciliation",
+        "originalPath": "/features/patient-attribution-reconciliation"
+      },
+      {
+        "id": "payer-settlement-audit",
+        "title": "Payer settlement audit",
+        "originalPath": "/features/payer-settlement-audit"
+      },
+      {
+        "id": "revenue-cycle-optimization-modeling-clai",
+        "title": "revenue cycle optimization modeling clai",
+        "originalPath": "/features/revenue-cycle-optimization-modeling-clai"
+      },
+      {
+        "id": "patient-payment-intelligence-predicting",
+        "title": "patient payment intelligence predicting",
+        "originalPath": "/features/patient-payment-intelligence-predicting"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "sales-trace-ingestion",
+      "outreach-campaign"
+    ],
+    "ai": true,
+    "representativeId": "sales-trace-ingestion",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "sales-trace-ingestion",
+        "title": "Sales trace ingestion",
+        "originalPath": "/features/sales-trace-ingestion"
+      },
+      {
+        "id": "outreach-campaign",
+        "title": "Outreach Campaign",
+        "originalPath": "/features/outreach-campaign"
+      }
+    ]
+  }
+]
