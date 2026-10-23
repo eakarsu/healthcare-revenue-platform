@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-denial-classification",
+      "feature": "denial-classification",
+      "title": "Denial classification insight",
+      "focus": "Revenue-cycle only: summarize Denial classification records (totals, status mix, paid vs expected amounts coverage, recent activity). Do not make diagnosis, treatment or other clinical claims; use only supplied records."
+    },
+    {
+      "id": "insight-claim-generation",
+      "feature": "claim-generation",
+      "title": "Claim generation insight",
+      "focus": "Revenue-cycle only: summarize Claim generation records (totals, status mix, field coverage, recent activity). Do not make diagnosis, treatment or other clinical claims; use only supplied records."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work. Revenue-cycle administration only; no clinical claims."
+    }
+  ]
+}
